@@ -3,11 +3,13 @@ package com.example.daggermig2.navigator;
 
 import com.bluelinelabs.conductor.Router;
 import com.bluelinelabs.conductor.RouterTransaction;
+import com.example.daggermig2.di.ActivityScope;
 import com.example.daggermig2.ui.firstscreen.FirstController;
 import com.example.daggermig2.ui.secondscreen.SecondController;
 
 import javax.inject.Inject;
 
+@ActivityScope
 public class LocalNavigator implements Navigator {
 
     private Router router;
