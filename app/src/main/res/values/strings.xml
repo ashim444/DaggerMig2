@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DaggerMig2</string>
+    <string name="hello_tthis_is_first_screen_injection_was_sucessful">Hello tthis is first screen. Injection was sucessful</string>
+    <string name="this_is_second_screen_injecction_was_sucessful_see_logcat">This is second screen. Injecction was sucessful. see logcat</string>
+</resources>
